@@ -4,11 +4,48 @@
     <meta charset="UTF-8">
     <!-- <meta http-equiv="refresh" content="0; url=https://linktr.ee/henry.behave" /> -->
     <link rel="shortcut icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <script>
+    <!-- <script>
         // if (string.indow.location.pathname)
         window.location.replace("https://linktr.ee/henry.behave");
-    </script>
+    </script> -->
+    <div class="shaper">
+        <h1>Henry Behave</h1>
+
+        <p>
+            <a href="http://instagram.com/henry.behave">instagram</a>
+        </p>
+
+        <p>
+            <a href="https://open.spotify.com/album/7GW6W6WPZfb4otce6I0s9t?si=2bTPl5MkRAGXZlmo2_V-dQ">spotify</a>
+        </p>
+
+        <p>
+            <a href="https://music.apple.com/us/album/the-perfect-answer-ep/1862994076">apple music</a>
+        </p>
+
+        <p>
+            <a href="https://www.youtube.com/playlist?list=OLAK5uy_nvCcc18nJZGBfixphgC7gtqt5pak4EiVI">youtube</a>
+        </p>
+
+        <p>
+            <a href="https://henrybehave.bandcamp.com/album/the-perfect-answer">bandcamp</a>
+        </p>
+
+        <p>
+            <a href="https://linktr.ee/henry.behave">etc</a>
+        </p>
+
+        <img id="speaker" class="mute" onclick="toggleMute()" src="speaker.png">
+        <h3 id="songtext" class="mute" >now playing: "the perfect answer"</h3>
+    </div>
+
+    <audio id="myAudio" loop>
+        <source src="TPA-snippet.mp3" type="audio/mpeg">
+    </audio>
+    
+    <script src="script.js"></script>
 </body>
 </html>

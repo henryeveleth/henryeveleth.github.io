@@ -1,0 +1,83 @@
+html, body {
+  margin: 0; padding: 0;
+}
+
+.shaper {
+  background: gray url("./cover.jpeg") repeat 0 0;
+  background-size: 30%;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  height: 100%;
+  min-height: 100vh;
+  padding-top: 120px;
+  box-sizing: border-box;
+  -webkit-animation: slide 20s linear infinite;
+  animation: slide 20s linear infinite;
+}
+
+.shaper::before {
+    transform: rotate(30deg);
+}
+
+.shaper h1 {
+  font-family: sans-serif;
+  font-size: 120px;
+  color: white;
+}
+
+.shaper p {
+    padding-top: 60px;
+}
+
+.shaper p a {
+  font-family: sans-serif;
+  font-size: 70px;
+  color: white;
+}
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -512px -512px; }
+}
+
+#speaker {
+    padding-top: 80px;
+	height: 300px;
+	width: 300px;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+    color: white;
+    /* border: 5px solid white; */
+
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+    filter: brightness(0) invert(100%);
+
+    &:hover {
+        cursor: pointer;
+        /* filter: sepia(0) invert(50%); */
+    }
+}
+
+.mute {
+    filter: brightness(0) invert(70%) !important;
+}
+
+body {
+  color: #fff;
+  font-family: arial, sans-sarif;
+  background-color: #333;
+  text-align: center;
+}
+
+h3 {
+    margin-top: -15px;
+    padding-bottom: 20px;
+    font-style: italic;
+}
