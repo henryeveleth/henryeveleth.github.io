@@ -25,7 +25,7 @@
         <div id="content">
             <!-- <h1>Henry Behave</h1> -->
             <div id="intro">
-                <a href="/index.html">
+                <a onclick="gtag('event', 'click', { 'event_category': 'link_click', 'value': 'index'})" href="/index.html">
                     <img alt="Henry Behave logo" id="logo" src="logo-only-black.png" >
                 </a>
                 <p id="blurb">
@@ -35,37 +35,37 @@
     
             <div id="musiclinks">
                 <p id="spotify">
-                    <a href="https://open.spotify.com/album/7GW6W6WPZfb4otce6I0s9t?si=2bTPl5MkRAGXZlmo2_V-dQ">spotify</a>
+                    <a onclick="gtag('event', 'click', { 'event_category': 'link_click', 'value': 'spotify'})" href="https://open.spotify.com/album/7GW6W6WPZfb4otce6I0s9t?si=2bTPl5MkRAGXZlmo2_V-dQ">spotify</a>
                 </p>
         
                 <p id="apple">
-                    <a href="https://music.apple.com/us/album/the-perfect-answer-ep/1862994076">apple music</a>
+                    <a onclick="gtag('event', 'click', { 'event_category': 'link_click', 'value': 'apple'})" href="https://music.apple.com/us/album/the-perfect-answer-ep/1862994076">apple music</a>
                 </p>
         
                 <p id="youtube">
-                    <a href="https://www.youtube.com/playlist?list=OLAK5uy_nvCcc18nJZGBfixphgC7gtqt5pak4EiVI">youtube</a>
+                    <a onclick="gtag('event', 'click', { 'event_category': 'link_click', 'value': 'youtube'})" href="https://www.youtube.com/playlist?list=OLAK5uy_nvCcc18nJZGBfixphgC7gtqt5pak4EiVI">youtube</a>
                 </p>
         
                 <p id="bandcamp">
-                    <a href="https://henrybehave.bandcamp.com/album/the-perfect-answer">bandcamp</a>
+                    <a onclick="gtag('event', 'click', { 'event_category': 'link_click', 'value': 'bandcamp'})" href="https://henrybehave.bandcamp.com/album/the-perfect-answer">bandcamp</a>
                 </p>
         
                 <p id="etc">
-                    <a href="https://linktr.ee/henry.behave">etc</a>
+                    <a onclick="gtag('event', 'click', { 'event_category': 'link_click', 'value': 'etc'})" href="https://linktr.ee/henry.behave">etc</a>
                 </p>
             </div>
     
             <div id="otherlinks">
                 <p id="insta">
-                    <a href="http://instagram.com/henry.behave">instagram</a>
+                    <a onclick="gtag('event', 'click', { 'event_category': 'link_click', 'value': 'instagram'})" href="http://instagram.com/henry.behave">instagram</a>
                 </p>
     
                 <p id="bio">
-                    <a href="bio.html">bio</a>
+                    <a onclick="gtag('event', 'click', { 'event_category': 'link_click', 'value': 'bio'})" href="bio.html">bio</a>
                 </p>
             </div>
     
-            <div id="music">
+            <div onclick="gtag('event', 'click', { 'event_category': 'speaker_click'})" id="music">
                 <img id="speaker" class="mute" onclick="toggleMute()" src="speaker.png">
                 <h3 id="nowplaying" class="mute" >now playing: "The Perfect Answer"</h3>
                 <audio id="songaudio" loop>

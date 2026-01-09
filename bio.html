@@ -31,7 +31,7 @@
         <div id="content">
             <!-- <h1>Henry Behave</h1> -->
             <div id="intro">
-                <a href="/index.html">
+                <a onclick="gtag('event', 'click', { 'event_category': 'link_click', 'value': 'index'})" href="/index.html">
                     <img alt="Henry Behave logo" id="logo" src="logo-only-black.png" >
                 </a>
                 <p id="blurb">
@@ -56,11 +56,11 @@
     
             <div id="otherlinks">
                 <p id="home">
-                    <a href="index.html">home</a>
+                    <a onclick="gtag('event', 'click', { 'event_category': 'link_click', 'value': 'home'})" href="index.html">home</a>
                 </p>
             </div>
     
-            <div id="music">
+            <div onclick="gtag('event', 'click', { 'event_category': 'speaker_click'})" id="music">
                 <img id="speaker" class="mute" onclick="toggleMute()" src="speaker.png">
                 <h3 id="nowplaying" class="mute" >now playing: "The Perfect Answer"</h3>
                 <audio id="songaudio" loop>
