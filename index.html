@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- <meta http-equiv="refresh" content="0; url=https://linktr.ee/henry.behave" /> -->
-    <link rel="shortcut icon" type="image/png" href="favicon.ico">
+    <link rel="icon" type="image/png" href="favicon.ico">
     <link rel="stylesheet" href="./style.css">
 
     <meta name="description" content='Official website for musician/artist Henry Behave. Listen to "The Perfect Answer", new psychdelic/alternative rock EP available now.''>
@@ -12,47 +11,59 @@
     </title>
 </head>
 <body>
-    <div class="shaper">
+    <div class="background">
         <div id="content">
             <!-- <h1>Henry Behave</h1> -->
-            <img id="logo" src="logo-only-black.png">
-
-            <p id="insta">
-                <a href="http://instagram.com/henry.behave">instagram</a>
-            </p>
+            <div id="intro">
+                <a href="/index.html">
+                    <img alt="Henry Behave logo" id="logo" src="logo-only-black.png" >
+                </a>
+                <p id="blurb">
+                    "The Perfect Answer" EP available now.
+                </p>
+            </div>
     
-            <p id="spotify">
-                <a href="https://open.spotify.com/album/7GW6W6WPZfb4otce6I0s9t?si=2bTPl5MkRAGXZlmo2_V-dQ">spotify</a>
-            </p>
+            <div id="musiclinks">
+                <p id="spotify">
+                    <a href="https://open.spotify.com/album/7GW6W6WPZfb4otce6I0s9t?si=2bTPl5MkRAGXZlmo2_V-dQ">spotify</a>
+                </p>
+        
+                <p id="apple">
+                    <a href="https://music.apple.com/us/album/the-perfect-answer-ep/1862994076">apple music</a>
+                </p>
+        
+                <p id="youtube">
+                    <a href="https://www.youtube.com/playlist?list=OLAK5uy_nvCcc18nJZGBfixphgC7gtqt5pak4EiVI">youtube</a>
+                </p>
+        
+                <p id="bandcamp">
+                    <a href="https://henrybehave.bandcamp.com/album/the-perfect-answer">bandcamp</a>
+                </p>
+        
+                <p id="etc">
+                    <a href="https://linktr.ee/henry.behave">etc</a>
+                </p>
+            </div>
     
-            <p id="apple">
-                <a href="https://music.apple.com/us/album/the-perfect-answer-ep/1862994076">apple music</a>
-            </p>
+            <div id="otherlinks">
+                <p id="insta">
+                    <a href="http://instagram.com/henry.behave">instagram</a>
+                </p>
     
-            <p id="youtube">
-                <a href="https://www.youtube.com/playlist?list=OLAK5uy_nvCcc18nJZGBfixphgC7gtqt5pak4EiVI">youtube</a>
-            </p>
+                <p id="bio">
+                    <a href="bio.html">bio</a>
+                </p>
+            </div>
     
-            <p id="bandcamp">
-                <a href="https://henrybehave.bandcamp.com/album/the-perfect-answer">bandcamp</a>
-            </p>
-    
-            <p id="etc">
-                <a href="https://linktr.ee/henry.behave">etc</a>
-            </p>
-    
-            <p id="bio">
-                <a href="bio.html">bio</a>
-            </p>
-    
-            <img id="speaker" class="mute" onclick="toggleMute()" src="speaker.png">
-            <h3 id="songtext" class="mute" >now playing: "the perfect answer"</h3>
+            <div id="music">
+                <img id="speaker" class="mute" onclick="toggleMute()" src="speaker.png">
+                <h3 id="nowplaying" class="mute" >now playing: "The Perfect Answer"</h3>
+                <audio id="songaudio" loop>
+                    <source src="TPA-snippet.mp3" type="audio/mpeg">
+                </audio>
+            </div>
         </div>
     </div>
-
-    <audio id="myAudio" loop>
-        <source src="TPA-snippet.mp3" type="audio/mpeg">
-    </audio>
     
     <script src="script.js"></script>
 </body>

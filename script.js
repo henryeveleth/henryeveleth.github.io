@@ -1,5 +1,5 @@
 function toggleMute() {
-    var audio = document.getElementById('myAudio');
+    var audio = document.getElementById('songaudio');
     // audio.play
     // audio.muted = !audio.muted;
 
@@ -12,8 +12,8 @@ function toggleMute() {
     var speaker = document.getElementById('speaker');
     speaker.classList.toggle('mute');
 
-    var songtext = document.getElementById('songtext');
-    songtext.classList.toggle('mute');
+    var nowplaying = document.getElementById('nowplaying');
+    nowplaying.classList.toggle('mute');
 }
 
 $('.speaker').click(function(e) {

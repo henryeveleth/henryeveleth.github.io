@@ -1,0 +1,13 @@
+<div id="biography">
+    <p id="biography">
+        Not much is known about Henry Behave.
+        <br/>
+        <br/>
+        <br/>
+        We do know this:
+        <br/>
+        - He is based in Brooklyn, New York.
+        <br/>
+        - His music has been described as: alternative, psychedelic, rock, pop, experimental, indie, indietronica, ambient, idm, glitchy, vibey, groovy, hard, chill, soothing
+    </p>
+</div>
