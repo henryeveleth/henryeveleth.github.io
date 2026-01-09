@@ -1,7 +1,9 @@
 User-agent: *
+
 Allow: /
 Allow: /index.html
 Allow: /bio.html
 Allow: /sitemap.xml
 Allow: /favicon.ico
-Sitemap: /sitemap.xml
+
+Sitemap: https://henrybehave.com/sitemap.xml
