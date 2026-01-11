@@ -181,3 +181,18 @@ h3 {
     color: white;
     margin-bottom: 160px;
 }
+
+#cat {
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -40px; */
+    padding: 0px;
+    margin-bottom: -10px;
+}
+
+#catimage {
+    width: 90%;
+}
