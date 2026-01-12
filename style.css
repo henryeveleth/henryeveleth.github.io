@@ -50,6 +50,13 @@ html, body {
     margin-bottom: -40px;
 }
 
+#logosmall {
+    width: 10%;
+    height: 10%;
+    margin-top: -5px;
+    margin-bottom: -40px;
+}
+
 body {
   color: #fff;
   font-family: arial, sans-sarif;
@@ -91,12 +98,16 @@ h3 {
     color: rgb(123,192,106);
 }
 
-#apple a {
-    color: rgb(255, 62, 173);
-}
-
 #youtube a {
     color: rgb(242,54,71);
+}
+
+#tiktok a {
+    color: rgb(57, 57, 57);
+}
+
+#apple a {
+    color: rgb(255, 62, 173);
 }
 
 #bandcamp a {
