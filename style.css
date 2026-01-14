@@ -34,9 +34,10 @@ html, body {
 
 .background p a {
   font-family: sans-serif;
-  font-size: 70px;
+  font-size: 110px;
   color: white;
 }
+
 @-webkit-keyframes slide {
     from { background-position: 0 0; }
     to { background-position: -512px -512px; }
