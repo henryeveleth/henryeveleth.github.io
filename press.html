@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5P6ZFL86P"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-F5P6ZFL86P');
+    </script>
+
+    <meta charset="UTF-8">
+
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="description" content='Official website for musician/artist Henry Behave. Listen to "The Perfect Answer", new psychdelic/alternative rock EP available now.''>
+    <title>
+        Henry Behave | The Perfect Answer | New Music 2026
+    </title>
+</head>
+<body>
+    <div class="background">
+        <div id="content">
+            <!-- <h1>Henry Behave</h1> -->
+            <div id="intro">
+                <a onclick="gtag('event', 'click', { 'event_category': 'link_click', 'value': 'index'})" href="/index.html">
+                    <img alt="Henry Behave logo" id="logo" src="logo-only-black.png" >
+                </a>
+                <p id="blurb">
+                    "The Perfect Answer" EP available now.
+                </p>
+            </div>
+
+             <div id="presslinks">
+                <p id="oursoundmusic">
+                    <a href="https://www.instagram.com/p/DTvbqpQiN4X/?img_index=1">"A fantastic EP" -- OurSound Music</a>
+                </p>
+            </div>
+
+            <div id="otherlinks">
+                <p id="bio">
+                    <a onclick="gtag('event', 'click', { 'event_category': 'link_click', 'value': 'bio'})" href="bio.html">bio</a>
+                </p>
+
+                <p id="cat">
+                    <a onclick="gtag('event', 'click', { 'event_category': 'link_click', 'value': 'cat'})" href="cat.html">cat</a>
+                </p>
+            </div>
+    
+            <div onclick="gtag('event', 'click', { 'event_category': 'speaker_click'})" id="music">
+                <img id="speaker" class="mute" onclick="toggleMute()" src="speaker.png">
+                <h3 id="nowplaying" class="mute" >now playing: "The Perfect Answer"</h3>
+                <audio id="songaudio" loop>
+                    <source id="audiosrc" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

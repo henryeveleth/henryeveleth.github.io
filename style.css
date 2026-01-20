@@ -208,3 +208,7 @@ h3 {
 #catimage {
     width: 90%;
 }
+
+#presslinks a {
+    font-size: 24px;
+}
