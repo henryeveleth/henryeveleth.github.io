@@ -209,6 +209,10 @@ h3 {
     width: 90%;
 }
 
+#presslinks {
+    margin: 50px;
+}
+
 #presslinks a {
-    font-size: 24px;
+    font-size: 20px;
 }
