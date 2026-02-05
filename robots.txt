@@ -4,6 +4,7 @@ Allow: /
 Allow: /index.html
 Allow: /bio.html
 Allow: /cat.html
+Allow: /press.html
 Allow: /sitemap.xml
 Allow: /favicon.ico
 
